@@ -18,9 +18,9 @@ import (
 	"io"
 	"math"
 
-	"github.com/google/cayley/graph"
-	"github.com/google/cayley/graph/iterator"
-	"github.com/google/cayley/graph/memstore/b"
+	"github.com/lytics/cayley/graph"
+	"github.com/lytics/cayley/graph/iterator"
+	"github.com/lytics/cayley/graph/memstore/b"
 )
 
 type Iterator struct {

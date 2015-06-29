@@ -22,10 +22,10 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/google/cayley/graph"
-	"github.com/google/cayley/graph/iterator"
-	"github.com/google/cayley/quad"
-	"github.com/google/cayley/writer"
+	"github.com/lytics/cayley/graph"
+	"github.com/lytics/cayley/graph/iterator"
+	"github.com/lytics/cayley/quad"
+	"github.com/lytics/cayley/writer"
 )
 
 func makeQuadSet() []quad.Quad {

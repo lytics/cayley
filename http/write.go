@@ -25,9 +25,9 @@ import (
 	"github.com/barakmich/glog"
 	"github.com/julienschmidt/httprouter"
 
-	"github.com/google/cayley/internal"
-	"github.com/google/cayley/quad"
-	"github.com/google/cayley/quad/cquads"
+	"github.com/lytics/cayley/internal"
+	"github.com/lytics/cayley/quad"
+	"github.com/lytics/cayley/quad/cquads"
 )
 
 func ParseJSONToQuadList(jsonBody []byte) ([]quad.Quad, error) {

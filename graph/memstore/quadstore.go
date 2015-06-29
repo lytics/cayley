@@ -21,10 +21,10 @@ import (
 
 	"github.com/barakmich/glog"
 
-	"github.com/google/cayley/graph"
-	"github.com/google/cayley/graph/iterator"
-	"github.com/google/cayley/graph/memstore/b"
-	"github.com/google/cayley/quad"
+	"github.com/lytics/cayley/graph"
+	"github.com/lytics/cayley/graph/iterator"
+	"github.com/lytics/cayley/graph/memstore/b"
+	"github.com/lytics/cayley/quad"
 )
 
 const QuadStoreType = "memstore"

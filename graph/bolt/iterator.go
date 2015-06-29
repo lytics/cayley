@@ -23,9 +23,9 @@ import (
 	"github.com/barakmich/glog"
 	"github.com/boltdb/bolt"
 
-	"github.com/google/cayley/graph"
-	"github.com/google/cayley/graph/iterator"
-	"github.com/google/cayley/quad"
+	"github.com/lytics/cayley/graph"
+	"github.com/lytics/cayley/graph/iterator"
+	"github.com/lytics/cayley/quad"
 )
 
 var (

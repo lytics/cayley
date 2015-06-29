@@ -15,8 +15,8 @@
 package iterator
 
 import (
-	"github.com/google/cayley/graph"
-	"github.com/google/cayley/quad"
+	"github.com/lytics/cayley/graph"
+	"github.com/lytics/cayley/quad"
 )
 
 type Node struct {

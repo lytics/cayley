@@ -14,7 +14,7 @@
 
 package path
 
-import "github.com/google/cayley/graph"
+import "github.com/lytics/cayley/graph"
 
 type morphism struct {
 	Name     string
