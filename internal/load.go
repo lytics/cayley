@@ -8,12 +8,12 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/google/cayley/config"
-	"github.com/google/cayley/db"
-	"github.com/google/cayley/graph"
-	"github.com/google/cayley/quad"
-	"github.com/google/cayley/quad/cquads"
-	"github.com/google/cayley/quad/nquads"
+	"github.com/lytics/cayley/config"
+	"github.com/lytics/cayley/db"
+	"github.com/lytics/cayley/graph"
+	"github.com/lytics/cayley/quad"
+	"github.com/lytics/cayley/quad/cquads"
+	"github.com/lytics/cayley/quad/nquads"
 )
 
 // Load loads a graph from the given path and write it to qw.  See

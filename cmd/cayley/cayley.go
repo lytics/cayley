@@ -25,20 +25,20 @@ import (
 
 	"github.com/barakmich/glog"
 
-	"github.com/google/cayley/config"
-	"github.com/google/cayley/db"
-	"github.com/google/cayley/graph"
-	"github.com/google/cayley/http"
-	"github.com/google/cayley/internal"
+	"github.com/lytics/cayley/config"
+	"github.com/lytics/cayley/db"
+	"github.com/lytics/cayley/graph"
+	"github.com/lytics/cayley/http"
+	"github.com/lytics/cayley/internal"
 
 	// Load all supported backends.
-	_ "github.com/google/cayley/graph/bolt"
-	_ "github.com/google/cayley/graph/leveldb"
-	_ "github.com/google/cayley/graph/memstore"
-	_ "github.com/google/cayley/graph/mongo"
+	_ "github.com/lytics/cayley/graph/bolt"
+	_ "github.com/lytics/cayley/graph/leveldb"
+	_ "github.com/lytics/cayley/graph/memstore"
+	_ "github.com/lytics/cayley/graph/mongo"
 
 	// Load writer registry
-	_ "github.com/google/cayley/writer"
+	_ "github.com/lytics/cayley/writer"
 )
 
 var (

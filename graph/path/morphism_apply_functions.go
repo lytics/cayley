@@ -15,9 +15,9 @@
 package path
 
 import (
-	"github.com/google/cayley/graph"
-	"github.com/google/cayley/graph/iterator"
-	"github.com/google/cayley/quad"
+	"github.com/lytics/cayley/graph"
+	"github.com/lytics/cayley/graph/iterator"
+	"github.com/lytics/cayley/quad"
 )
 
 func isMorphism(nodes ...string) morphism {

@@ -17,7 +17,7 @@ package iterator
 import (
 	"testing"
 
-	"github.com/google/cayley/quad"
+	"github.com/lytics/cayley/quad"
 )
 
 func TestLinksTo(t *testing.T) {

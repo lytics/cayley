@@ -18,9 +18,9 @@ import (
 	"gopkg.in/mgo.v2"
 	"gopkg.in/mgo.v2/bson"
 
-	"github.com/google/cayley/graph"
-	"github.com/google/cayley/graph/iterator"
-	"github.com/google/cayley/quad"
+	"github.com/lytics/cayley/graph"
+	"github.com/lytics/cayley/graph/iterator"
+	"github.com/lytics/cayley/quad"
 )
 
 var _ graph.Nexter = &LinksTo{}

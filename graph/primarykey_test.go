@@ -15,9 +15,10 @@
 package graph_test
 
 import (
-	"code.google.com/p/go-uuid/uuid"
-	. "github.com/google/cayley/graph"
 	"testing"
+
+	"code.google.com/p/go-uuid/uuid"
+	. "github.com/lytics/cayley/graph"
 )
 
 func TestSequentialKeyCreation(t *testing.T) {

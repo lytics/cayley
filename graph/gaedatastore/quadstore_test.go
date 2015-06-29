@@ -19,12 +19,13 @@ import (
 	"testing"
 
 	"errors"
-	"github.com/barakmich/glog"
-	"github.com/google/cayley/graph"
-	"github.com/google/cayley/graph/iterator"
-	"github.com/google/cayley/quad"
-	"github.com/google/cayley/writer"
 	"reflect"
+
+	"github.com/barakmich/glog"
+	"github.com/lytics/cayley/graph"
+	"github.com/lytics/cayley/graph/iterator"
+	"github.com/lytics/cayley/quad"
+	"github.com/lytics/cayley/writer"
 
 	"appengine/aetest"
 )

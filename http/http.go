@@ -25,9 +25,9 @@ import (
 	"github.com/barakmich/glog"
 	"github.com/julienschmidt/httprouter"
 
-	"github.com/google/cayley/config"
-	"github.com/google/cayley/db"
-	"github.com/google/cayley/graph"
+	"github.com/lytics/cayley/config"
+	"github.com/lytics/cayley/db"
+	"github.com/lytics/cayley/graph"
 )
 
 type ResponseHandler func(http.ResponseWriter, *http.Request, httprouter.Params) int
@@ -60,7 +60,7 @@ func findAssetsPath() string {
 		return ".."
 	}
 
-	gopathPath := os.ExpandEnv("$GOPATH/src/github.com/google/cayley")
+	gopathPath := os.ExpandEnv("$GOPATH/src/github.com/lytics/cayley")
 	if hasAssets(gopathPath) {
 		return gopathPath
 	}
