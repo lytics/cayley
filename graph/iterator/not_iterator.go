@@ -1,7 +1,7 @@
 package iterator
 
 import (
-	"github.com/google/cayley/graph"
+	"github.com/lytics/cayley/graph"
 )
 
 // Not iterator acts like a complement for the primary iterator.

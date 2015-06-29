@@ -15,7 +15,7 @@
 package graph
 
 import (
-	"github.com/google/cayley/quad"
+	"github.com/lytics/cayley/quad"
 )
 
 type Transaction struct {
